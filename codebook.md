@@ -21,14 +21,14 @@ Requirement 5: Created a second, independent tidy data set with the average of e
 
 Variables
 
-features			variable to hold the x, y, and z coordinate accelerometer data
+features			variable to hold the x, y, and z coordinate accelerometer data (in seconds)
 activity_labels		variable to hold the activity names (i.e. walking, sitting, laying, etc.)
-X-train, Y-train	variables to hold the x and y coordinate accelerometer data from the training data set
-X-test, Y-test		variables to hold the x and y coordinate accelerometer data from the test data set
-x-test-subset		variable to hold test data once all but standard deviation and mean data was filtered out
-x-train-subset		variable to hold training data once all but standard deviation and mean data was filtered out
-Xy					variable to hold the combined, reduced data set
-tidyset				variable to hold the resultant tidy data set
+X-train, Y-train	variables to hold the x and y coordinate accelerometer data from the training data set (in seconds)
+X-test, Y-test		variables to hold the x and y coordinate accelerometer data from the test data set (in seconds)
+x-test-subset		variable to hold test data once all but standard deviation and mean data was filtered out (in seconds)
+x-train-subset		variable to hold training data once all but standard deviation and mean data was filtered out (in seconds)
+Xy					variable to hold the combined, reduced data set (in seconds)
+tidyset				variable to hold the resultant tidy data set (in seconds)
 
 
 
